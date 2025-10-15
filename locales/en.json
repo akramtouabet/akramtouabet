@@ -4,7 +4,7 @@
     "portfolio": "Portfolio",
     "clients": "Clients",
     "contact": "Contact",
-    "competences": "Skills",
+    "skills": "Skills",
     "visualizer": "View your project"
   },
   "home": {
@@ -31,9 +31,18 @@
     "sending": "Sending...",
     "sent": "Thanks ✓"
   },
+  "skills": {
+    "title": "Skills"
+  },
+  "visualizer": {
+    "title": "View your project",
+    "description": "Enter the code I sent you to access your space",
+    "placeholder": "Access code",
+    "cta": "Submit"
+  },
   "footer": {
     "city": "Paris",
-    "email": "akram@example.com",
+    "email": "contact@akramtouabet.com",
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "mentions": "Legal notice",
@@ -41,7 +50,7 @@
     "cookies": "Cookies"
   },
   "notfound": {
-    "title": "Page not found",
+    "title": "Page not found. But hey, at least you know where you are.",
     "back": "Back to home"
   },
   "seo": {

@@ -17,8 +17,8 @@ export default function Footer() {
             className="flex items-center gap-4"
           >
             <a href={`mailto:${t.footer.email}`}>{t.footer.email}</a>
-            <a href="https://github.com/akram" target="_blank" rel="noreferrer">{t.footer.github}</a>
-            <a href="https://www.linkedin.com/in/akram" target="_blank" rel="noreferrer">{t.footer.linkedin}</a>
+            <a href="https://github.com/akramtouabet" target="_blank" rel="noreferrer">{t.footer.github}</a>
+            <a href="https://fr.linkedin.com/in/akramtouabet" target="_blank" rel="noreferrer">{t.footer.linkedin}</a>
           </motion.div>
         </AnimatePresence>
         <AnimatePresence mode="popLayout">

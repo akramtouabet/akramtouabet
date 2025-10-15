@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const NAV = [
   { id: "home", key: "home" },
-  { id: "competences", key: "competences" },
+  { id: "skills", key: "skills" },
   { id: "portfolio", key: "portfolio" },
   { id: "clients", key: "clients" },
   { id: "contact", key: "contact" },

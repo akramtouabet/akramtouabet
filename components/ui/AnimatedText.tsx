@@ -1,27 +1,49 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { useEffect, useState, ElementType, ReactNode, RefObject } from "react";
 
-export default function AnimatedText({ text }: { text: string }) {
-  const [displayedText, setDisplayedText] = useState(text);
+interface ViewportOptions {
+    root?: RefObject<Element>;
+    once?: boolean;
+    margin?: string;
+    amount?: "some" | "all" | number;
+}
+
+type AnimatedTextProps = {
+  children: ReactNode;
+  as?: ElementType; // "h1", "p", "span", etc.
+  className?: string;
+  animationKey?: string | number; // optional stable key from parent
+  viewport?: ViewportOptions;
+};
+
+export default function AnimatedText({
+  children,
+  as: Tag = "span",
+  className = "",
+  animationKey,
+  viewport = {}
+}: AnimatedTextProps) {
+  const [displayedChildren, setDisplayedChildren] = useState(children);
 
   useEffect(() => {
-    setDisplayedText(text);
-  }, [text]);
+    setDisplayedChildren(children);
+  }, [children]);
+
+  const MotionTag = motion(Tag);
 
   return (
-    <AnimatePresence mode="wait">
-      <motion.span
-        key={displayedText}
-        initial={{ opacity: 0, y: 6 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -6 }}
-        transition={{ duration: 0.15 }}
-        className="inline-block"
-      >
-        {displayedText}
-      </motion.span>
-    </AnimatePresence>
+    <MotionTag
+      key={animationKey ?? undefined}
+      initial={{ opacity: 0, y: 6 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -6 }}
+      transition={{ duration: 0.15 }}
+      className={className}
+      viewport={viewport}
+    >
+      {displayedChildren}
+    </MotionTag>
   );
 }

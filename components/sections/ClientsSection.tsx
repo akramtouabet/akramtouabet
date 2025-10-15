@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useLang } from "../LanguageProvider";
+import AnimatedText from "../ui/AnimatedText";
 
 type Client = { id: number; logo: string; name: string; description: string };
 
@@ -63,9 +64,9 @@ export default function ClientsSection() {
         </div>
         <div className="ml-4 flex gap-2">
           <button className="px-3 py-1.5 rounded-full border border-line text-sm disabled:opacity-40"
-            onClick={() => setPage(p => Math.max(0, p - 1))} disabled={page === 0}>{t.clients.prev}</button>
+            onClick={() => setPage(p => Math.max(0, p - 1))} disabled={page === 0}><AnimatedText>{t.clients.prev} </AnimatedText></button>
           <button className="px-3 py-1.5 rounded-full border border-line text-sm disabled:opacity-40"
-            onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))} disabled={page === totalPages - 1}>{t.clients.next}</button>
+            onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))} disabled={page === totalPages - 1}><AnimatedText >{t.clients.next} </AnimatedText></button>
         </div>
       </div>
     </div>

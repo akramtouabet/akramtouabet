@@ -4,7 +4,7 @@
     "portfolio": "Portfolio",
     "clients": "Clients",
     "contact": "Contact",
-    "competences": "Compétences",
+    "skills": "Compétences",
     "visualizer": "Voir ton projet"
   },
   "home": {
@@ -22,6 +22,15 @@
     "prev": "Préc.",
     "next": "Suiv."
   },
+  "skills": {
+    "title": "Compétences"
+  },
+  "visualizer": {
+    "title": "Voir ton projet",
+    "description": "Entre le code que je t’ai envoyé pour accéder à ton espace",
+    "placeholder": "Code d'accés",
+    "cta": "Valider"
+  },
   "contact": {
     "title": "Contact",
     "name": "Nom",
@@ -33,7 +42,7 @@
   },
   "footer": {
     "city": "Paris",
-    "email": "akram@example.com",
+    "email": "contact@akramtouabet.com",
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "mentions": "Mentions légales",
@@ -41,7 +50,7 @@
     "cookies": "Cookies"
   },
   "notfound": {
-    "title": "Page introuvable",
+    "title": "Page introuvable. Mais au moins, tu sais où tu es.",
     "back": "Retour à l’accueil"
   },
   "seo": {

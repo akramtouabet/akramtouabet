@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useLang } from "@/components/LanguageProvider";
 
 export default function NotFound() {
+  const { t } = useLang();
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-white text-center px-6">
       <motion.div
@@ -26,7 +28,7 @@ export default function NotFound() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-gray-400 text-lg"
         >
-          Oups... cette page n’existe pas ou a été déplacée.
+          {t.notfound.title}
         </motion.p>
 
         <motion.div
