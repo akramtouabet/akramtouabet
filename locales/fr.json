@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "clients": "Clients",
+    "contact": "Contact",
+    "competences": "Compétences",
+    "visualizer": "Voir ton projet"
+  },
+  "home": {
+    "title": "Bonjour, je suis Akram Touabet.",
+    "p1": "Je conçois des expériences web claires, rapides et élégantes.",
+    "p2": "Basé à Paris. Disponible pour missions et collaborations.",
+    "cta": "Me contacter"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "soon": "Prochainement..."
+  },
+  "clients": {
+    "title": "Clients",
+    "prev": "Préc.",
+    "next": "Suiv."
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi...",
+    "sent": "Merci ✓"
+  },
+  "footer": {
+    "city": "Paris",
+    "email": "akram@example.com",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "mentions": "Mentions légales",
+    "cgu": "CGU / CGV",
+    "cookies": "Cookies"
+  },
+  "notfound": {
+    "title": "Page introuvable",
+    "back": "Retour à l’accueil"
+  },
+  "seo": {
+    "title": "Akram Touabet — Développeur Web à Paris",
+    "description": "Des expériences web minimalistes, rapides et élégantes."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "clients": "Clients",
+    "contact": "Contact",
+    "competences": "Skills",
+    "visualizer": "View your project"
+  },
+  "home": {
+    "title": "Hi, I’m Akram Touabet.",
+    "p1": "I build clean, fast, and elegant web experiences.",
+    "p2": "Based in Paris. Available for freelance and collaborations.",
+    "cta": "Get in touch"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "soon": "Coming soon..."
+  },
+  "clients": {
+    "title": "Clients",
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "sent": "Thanks ✓"
+  },
+  "footer": {
+    "city": "Paris",
+    "email": "akram@example.com",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "mentions": "Legal notice",
+    "cgu": "Terms & Sales",
+    "cookies": "Cookies"
+  },
+  "notfound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  },
+  "seo": {
+    "title": "Akram Touabet — Web Developer in Paris",
+    "description": "Minimal, fast and elegant web experiences."
+  }
+}
