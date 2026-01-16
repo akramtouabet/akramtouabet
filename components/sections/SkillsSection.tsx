@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiFramer, SiNodedotjs, SiExpress, SiGit, SiDocker, SiJavascript, SiPostgresql, SiMongodb, SiAmazonwebservices, SiPhp, SiPython } from "react-icons/si";
 import AnimatedText from "../ui/AnimatedText";
 import { useLang } from "@/components/LanguageProvider";
