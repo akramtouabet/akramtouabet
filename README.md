@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:15161b,45:1b2554,100:26357a&height=200&section=header&text=Akram%20Touabet&fontSize=54&fontColor=f1efe7&fontAlignY=35&desc=Full%20Stack%20Developer%20%C2%B7%20Paris&descSize=17&descAlignY=55&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:15161b,45:1b2554,100:26357a&height=200&section=header&text=Akram%20Touabet&fontSize=54&fontColor=f1efe7&fontAlignY=35&desc=Full%20Stack%20Developer%20%C2%B7%20S%C3%A9tif%20%C2%B7%20Paris&descSize=17&descAlignY=55&descAlign=50" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&pause=300&duration=3200&color=93A1E6&center=true&vCenter=true&width=680&lines=I+design+and+build+solid+web+products%2C;from+the+architecture+to+the+interface." alt="I design and build solid web products, from the architecture to the interface." />
 
@@ -48,14 +48,34 @@ Full stack developer. I build web applications end to end — from the backend a
 ![Express](https://img.shields.io/badge/Express-15161B?style=flat-square&logo=express&logoColor=f1efe7)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15161B?style=flat-square&logo=postgresql&logoColor=93A1E6)
 ![MongoDB](https://img.shields.io/badge/MongoDB-15161B?style=flat-square&logo=mongodb&logoColor=93A1E6)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-15161B?style=flat-square&labelColor=15161B)
 ![OpenSearch](https://img.shields.io/badge/OpenSearch-15161B?style=flat-square&logo=opensearch&logoColor=93A1E6)
 ![PHP](https://img.shields.io/badge/PHP-15161B?style=flat-square&logo=php&logoColor=93A1E6)
 ![Python](https://img.shields.io/badge/Python-15161B?style=flat-square&logo=python&logoColor=93A1E6)
 
-**Cloud & tooling**
+**AWS**
 
 ![AWS Certified Developer](assets/aws-certified.svg)
+![Lambda](assets/lambda.svg)
+![Step Functions](assets/step-functions.svg)
+![DynamoDB](assets/dynamodb.svg)
+![API Gateway](assets/api-gateway.svg)
+![CloudFormation](assets/cloudformation.svg)
+![CloudFront](assets/cloudfront.svg)
+![CloudWatch](assets/cloudwatch.svg)
+![CodeBuild](assets/codebuild.svg)
+![CodePipeline](assets/codepipeline.svg)
+![Cognito](assets/cognito.svg)
+![EventBridge](assets/eventbridge.svg)
+![IAM](assets/iam.svg)
+![S3](assets/s3.svg)
+![Route 53](assets/route53.svg)
+![Secrets Manager](assets/secrets-manager.svg)
+![SES](assets/ses.svg)
+![SNS](assets/sns.svg)
+![SQS](assets/sqs.svg)
+
+**Tooling**
+
 ![Docker](https://img.shields.io/badge/Docker-15161B?style=flat-square&logo=docker&logoColor=93A1E6)
 ![Git](https://img.shields.io/badge/Git-15161B?style=flat-square&logo=git&logoColor=f1efe7)
 ![Jest](https://img.shields.io/badge/Jest-15161B?style=flat-square&logo=jest&logoColor=f1efe7)
